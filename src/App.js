@@ -11,14 +11,15 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <h1>What's up? What's up?</h1>
-
-      <Product></Product>
-      <Product></Product>
-      <Product></Product>
-      <Product></Product>
-      <Product></Product>
-      <Product></Product>
-
+      <div className="product-container">
+        <Product></Product>
+        <Product></Product>
+        <Product></Product>
+        <Product></Product>
+        <Product></Product>
+        <Product></Product>
+      </div>
+      
       <Footer></Footer>
     </div>
   );
