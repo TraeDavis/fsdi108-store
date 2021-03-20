@@ -1,0 +1,10 @@
+.qp-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qp-label{
+    padding: 5px;
+    margin-bottom: 0;
+    background-color: whitesmoke;
+}
