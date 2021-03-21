@@ -1,0 +1,15 @@
+.fa-leaf{
+    color: chartreuse;
+}
+.navbar-nav{
+    width: 100%;
+}
+.cart-container{
+    display: flex;
+    justify-content: flex-end;
+    width: inherit;
+}
+.cart:hover{
+    color: rgba(128, 255, 0, 0.657)!important;
+   
+}

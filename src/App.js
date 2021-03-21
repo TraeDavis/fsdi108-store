@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <h1>What's up? What's up?</h1>
+      <h1>Welcome to Organika</h1>
       <div className="product-container">
         <Product></Product>
         <Product></Product>
