@@ -1,0 +1,8 @@
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  h3{
+      margin: .5rem 0;
+  }

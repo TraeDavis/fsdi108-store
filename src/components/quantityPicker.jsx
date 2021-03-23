@@ -15,6 +15,7 @@ class QuantityPicker extends Component {
         <button onClick={this.dereaseQuantity} className="btn-sm btn-dark">
           -
         </button>
+        <button className="btn-sm btn-primary">Add to cart</button>
       </div>
     );
   }

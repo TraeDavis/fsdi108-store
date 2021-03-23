@@ -7,12 +7,11 @@ class Product extends Component {
   render() {
     return (
       <div className="product mb-3">
-        <img src="https://picsum.photos/200/300
-" alt="random" />
-        <label>Product Description goes Here</label>
+        <img className="product-image" src={"/images/products/" + this.props.data.image} alt="random" />
+        <label>{this.props.data.title}</label>
 
-        <label>$ Total</label>
-        <label>$ Price</label>
+        <label>Price:$ {this.props.data.price}</label>
+        <label>Total:$ {this.props.data.price}</label>
         <QuantityPicker></QuantityPicker>
       </div>
     );

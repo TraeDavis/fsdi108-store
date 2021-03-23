@@ -9,7 +9,10 @@
     justify-content: flex-end;
     width: inherit;
 }
+.cart{
+    color: rgba(255,255,255,.5)!important;
+}
 .cart:hover{
-    color: rgba(128, 255, 0, 0.657)!important;
-   
+    
+   color: rgba(255, 255, 255, 0.801)!important;
 }
