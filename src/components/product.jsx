@@ -8,10 +8,10 @@ class Product extends Component {
     return (
       <div className="product mb-3">
         <img className="product-image" src={"/images/products/" + this.props.data.image} alt="random" />
-        <label>{this.props.data.title}</label>
+        <label className="product-title">{this.props.data.title}</label>
 
-        <label>Price:$ {this.props.data.price}</label>
-        <label>Total:$ {this.props.data.price}</label>
+        <label>Price:$ {this.props.data.price.toFixed(2)}</label>
+        <label>Total:<span>$ {this.props.data.price.toFixed(2)}</span></label>
         <QuantityPicker></QuantityPicker>
       </div>
     );

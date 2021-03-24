@@ -3,9 +3,23 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
+    width: 80%;
 }
+
+
 .qp-label{
-    padding: 5px;
-    margin-bottom: 0;
-    background-color: whitesmoke;
+    margin: 0 .5rem!important;
+    display: flex;
+    align-items: center;
 }
+.seperator{
+    flex: 1;
+    display: flex;
+}
+.btn-sm{
+    background-color: #2A9D8F!important;
+    color: white!important;
+    
+    
+}
+

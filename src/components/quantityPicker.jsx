@@ -8,14 +8,17 @@ class QuantityPicker extends Component {
   render() {
     return (
       <div className="qp-container">
-        <button onClick={this.increaseQuantity} className="btn-sm btn-primary">
-          +
-        </button>
-        <label className="qp-label">{this.state.quantity}</label>
-        <button onClick={this.dereaseQuantity} className="btn-sm btn-dark">
-          -
-        </button>
-        <button className="btn-sm btn-primary">Add to cart</button>
+        <div className="seperator">
+          <button onClick={this.dereaseQuantity} className="btn-sm btn-light">
+            -
+          </button>
+          <label className="qp-label">{this.state.quantity}</label>
+
+          <button onClick={this.increaseQuantity} className="btn-sm btn-light">
+            +
+          </button>
+        </div>
+        <button className="btn-sm btn-light add-to-cart">Add to cart</button>
       </div>
     );
   }

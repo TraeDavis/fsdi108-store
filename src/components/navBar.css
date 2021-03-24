@@ -1,6 +1,9 @@
 .fa-leaf{
     color: chartreuse;
 }
+.navbar{
+    background-color: #264653;
+}
 .navbar-nav{
     width: 100%;
 }
@@ -10,9 +13,9 @@
     width: inherit;
 }
 .cart{
-    color: rgba(255,255,255,.5)!important;
+    color: #e76f51ec!important;
 }
 .cart:hover{
     
-   color: rgba(255, 255, 255, 0.801)!important;
+   color: #e76f51b2!important;
 }
