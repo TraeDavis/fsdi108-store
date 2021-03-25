@@ -1,0 +1,8 @@
+.contact-info a{
+    text-transform: none;
+    color: black;
+}
+.contact-info a:hover{
+    text-transform: none!important;
+    font-size: 1.2rem;
+}

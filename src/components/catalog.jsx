@@ -16,7 +16,7 @@ class Catalog extends Component {
         <h6>Our most popular products based on sales.</h6>
         </header>
         <div className="product-container">
-          {this.state.catalog.map((p) => <Product data={p}></Product>)}
+          {this.state.catalog.map((p) => <Product key={p.id} data={p}></Product>)}
         </div>
       </React.Fragment>
     );

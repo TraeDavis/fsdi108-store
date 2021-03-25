@@ -7,7 +7,7 @@ class Product extends Component {
   render() {
     return (
       <div className="product mb-3">
-        <img className="product-image" src={"/images/products/" + this.props.data.image} alt="random" />
+        <img className="product-image" src={"/images/products/" + this.props.data.image} alt="Product" />
         <label className="product-title">{this.props.data.title}</label>
 
         <label>Price:$ {this.props.data.price.toFixed(2)}</label>
