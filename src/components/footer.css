@@ -1,10 +1,18 @@
 .footer-cr{
-    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: .8rem;
+    padding: .5rem 0 .5rem 2%;
+    background-color: #264653ed;
+    color: rgba(255, 255, 255, 0.87);
     
 }
 .footer-name{
-    position: relative;
+    display: flex;
+    align-items: center;
     font-weight: bold;
-    color: black;
     margin-left: 1%;
+    margin-bottom: 0!important;
+    
 }

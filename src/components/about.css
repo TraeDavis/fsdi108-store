@@ -3,6 +3,13 @@
     color: black;
 }
 .contact-info a:hover{
-    text-transform: none!important;
-    font-size: 1.2rem;
+    text-decoration: none!important;
+    font-size: 1.1rem;
+}
+.lead{
+    text-align: left;
+}
+.about-page{
+    display:flex;
+    justify-content: space-between;
 }

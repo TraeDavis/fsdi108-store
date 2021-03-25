@@ -13,8 +13,8 @@ class NavBar extends Component {
   </button>
   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="navbar-nav">
-      <Link className="nav-link active" to="/home">Home <span className="sr-only">(current)</span></Link>
-      <Link className="nav-link" to="/catalog">Catalog</Link>
+      <Link className="nav-link" to="/home">Home <span className="sr-only">(current)</span></Link>
+      <Link className="nav-link" to="/catalog">Shop Now</Link>
       <Link className="nav-link" to="/about">About</Link>
       <div className="cart-container">
       <Link className="nav-link active cart" to="/cart"><i className="fas fa-shopping-cart"></i> Cart</Link>

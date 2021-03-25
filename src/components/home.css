@@ -1,0 +1,27 @@
+
+.img-container{
+    height: 40vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    background-position: center;
+}
+img{
+    width: 100%;
+    
+}
+.home-heading{
+    color: whitesmoke;
+    background-color: rgba(137, 111, 155, 0.466);
+    margin: 0;
+    padding: .5rem;
+    font-size: 1.1rem!important;
+    text-transform: uppercase;
+}
+@media(min-width:768px){
+    .home-heading{
+        font-size: 2rem!important;
+    }
+}

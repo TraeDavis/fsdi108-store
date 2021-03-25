@@ -19,3 +19,9 @@
     
    color: #e76f51b2!important;
 }
+.nav-link{
+    width: 100%;
+}
+.nav-link:active{
+    color: white;
+}
