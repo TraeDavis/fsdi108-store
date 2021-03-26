@@ -23,7 +23,6 @@ class Catalog extends Component {
   }
 
   componentDidMount(){
-      console.log("Load data now");
       // call the service, get the catalog and put the catalog in the state
       let service = new ProductService();
       var data = service.getProducts();
