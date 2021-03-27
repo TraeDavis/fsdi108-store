@@ -3,7 +3,7 @@ import React, { Component } from "react";
 
 class QuantityPicker extends Component {
   state = {
-    quantity: 1,
+    quantity: this.props.minimum,
   };
   render() {
     return (
@@ -18,22 +18,30 @@ class QuantityPicker extends Component {
             +
           </button>
         </div>
-        <button className="btn-sm btn-light add-to-cart">Add to cart</button>
+        <button onClick={this.addToCart} className="btn-sm btn-light add-to-cart">Add to cart</button>
       </div>
     );
   }
+
+  addToCart = () => {
+    console.log("added to cart");
+  };
 
   increaseQuantity = () => {
     // this.state.quantity = 2; <-dont modify state directly
     let current = this.state.quantity + 1;
     this.setState({ quantity: current });
+
+    this.props.onValueChange(current);
   };
 
   dereaseQuantity = () => {
     let current = this.state.quantity - 1;
-    if (current > 0) {
+    if (current >= this.props.minimum ) {
       this.setState({ quantity: current });
+      this.props.onValueChange(current);
     }
+
   };
 }
 

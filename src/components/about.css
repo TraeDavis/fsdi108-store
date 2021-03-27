@@ -38,9 +38,6 @@
     }
 }
 @media(min-width: 1024px){
-    .about-page{
-        height: 90vh!important;
-    }
     .lead{
         font-size: 1.25rem;
     }
