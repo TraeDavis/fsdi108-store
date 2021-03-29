@@ -48,8 +48,6 @@ class About extends Component {
       console.log("more info");
     if(this.state.infoVisible === false){
         this.setState({infoVisible: true})
-    }else{
-        this.setState({infoVisible: false})
     }
       
   };
