@@ -5,7 +5,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
+    box-shadow: -2px 2px 15px rgb(34, 34, 34);
     background-position: center;
 }
 img{

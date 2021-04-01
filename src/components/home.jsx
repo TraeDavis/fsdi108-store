@@ -8,7 +8,6 @@ class Home extends Component {
         <header className="home-header">
           <div className="img-container" style={{backgroundImage: "url(/images/banner/countryside-2326787_1920.jpg)"}}>
             
-          
           <h1 className="home-heading">Organika, where goodness grows. </h1>
           </div>
         </header>

@@ -18,7 +18,7 @@ class QuantityPicker extends Component {
             +
           </button>
         </div>
-        <button onClick={this.addToCart} className="btn-sm btn-light add-to-cart">Add to cart</button>
+        <button onClick={this.addToCart} className="btn-sm btn-light add-to-cart"><i className="fas fa-cart-plus"></i></button>
       </div>
     );
   }

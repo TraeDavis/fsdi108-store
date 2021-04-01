@@ -17,7 +17,8 @@
 .btn-sm{
     background-color: #2A9D8F!important;
     color: white!important;
-    
-    
 }
-
+.fa-cart-plus{
+    font-size: 1.3rem;
+    padding: 0rem .6rem;
+}

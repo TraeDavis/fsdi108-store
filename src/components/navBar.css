@@ -22,6 +22,12 @@
 .nav-link{
     width: 100%;
 }
-.nav-link:active{
-    color: white;
+.active{
+    color: rgba(255,255,255,.5)!important;
+}
+.active:hover{
+    color: rgba(255,255,255,.75)!important;
+}
+.active:focus{
+    color: white!important;
 }
