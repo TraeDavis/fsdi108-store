@@ -1,6 +1,7 @@
 import "./qp.css";
 import React, { Component } from "react";
 
+
 class QuantityPicker extends Component {
   state = {
     quantity: this.props.minimum,
@@ -8,7 +9,6 @@ class QuantityPicker extends Component {
   render() {
     return (
       <div className="qp-container">
-        <div className="seperator">
           <button onClick={this.dereaseQuantity} className="btn-sm btn-light">
             -
           </button>
@@ -17,15 +17,12 @@ class QuantityPicker extends Component {
           <button onClick={this.increaseQuantity} className="btn-sm btn-light">
             +
           </button>
-        </div>
-        <button onClick={this.addToCart} className="btn-sm btn-light add-to-cart"><i className="fas fa-cart-plus"></i></button>
+        
       </div>
     );
   }
 
-  addToCart = () => {
-    console.log("added to cart");
-  };
+ 
 
   increaseQuantity = () => {
     // this.state.quantity = 2; <-dont modify state directly
