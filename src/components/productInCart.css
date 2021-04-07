@@ -1,0 +1,26 @@
+.product-cart-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px rgb(15, 15, 15);
+    margin-bottom: 2%;
+}
+.cart-img{
+    width: 15%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    
+}
+
+@media(min-width: 758px){
+    .product-cart-container{
+        width: 95%;
+    }
+}

@@ -19,8 +19,21 @@ const cartReducer = (state = [], action) => {
                      * * else
                      * *    push the product to copy*/
 
+                    let found = false;
+                    for(let i = 0; i < copy.length; i++){
+                        let item = copy[i];
+
+                        if(action.payload.product.id === item.product.id){
+                            found = true;
+                            item.quantity = item.quantity + action.payload.quantity;
+                        }
+                    }
+
+                    if(!found){
+                      copy.push(action.payload);  
+                    }
                 
-                copy.push(action.payload);
+                
                 return copy;
                 
                 
