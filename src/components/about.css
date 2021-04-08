@@ -36,11 +36,13 @@
     color: white;
     padding: 2%;
     margin-top:-4px;
-    height: 100vh;
+    position: relative;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-position: center;
+    background-size: cover;
 }
 .contact-btn{
     background-color: rgb(73, 133, 58)!important;

@@ -1,3 +1,7 @@
+.catalog-container{
+  position: relative;
+  min-height: 100vh;
+}
 .product-container{
     display: flex;
     justify-content: space-around;

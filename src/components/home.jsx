@@ -4,7 +4,7 @@ import "./home.css";
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="home-container">
         <header className="home-header">
           <div className="img-container" style={{backgroundImage: "url(/images/banner/countryside-2326787_1920.jpg)"}}>
             

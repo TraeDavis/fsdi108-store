@@ -11,12 +11,14 @@ class Catalog extends Component {
   render() {
     return (
       <React.Fragment>
+        <div className="catalog-container">
         <header className="catalog-header">
         <h3>Check out our {this.state.catalog.length} best sellers! </h3>
         <h6>Our most popular products based on sales.</h6>
         </header>
         <div className="product-container">
           {this.state.catalog.map((p) => <Product key={p.id} data={p}></Product>)}
+        </div>
         </div>
       </React.Fragment>
     );
