@@ -23,28 +23,6 @@
     font-family: Georgia, Times, 'Times New Roman', serif;
     border-bottom: 3px solid rgba(235, 234, 233, 0.678);margin-bottom: 1.25rem;
 }
-@media(min-width: 768px){
-    .lead{
-        padding: 2rem;
-        font-size: 1.1rem;
-    }
-    .about-page{
-        height: auto!important;
-    }
-    .jumbotron{
-        width: 90%;
-        margin-top: 2%;
-        
-    }
-}
-@media(min-width: 1024px){
-    .lead{
-        font-size: 1.25rem;
-    }
-    .jumbotron{
-        width: 80%;
-    }
-}
 .contact-info a{
     text-transform: none;
     color: white;
@@ -58,7 +36,7 @@
     color: white;
     padding: 2%;
     margin-top:-4px;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,4 +44,22 @@
 }
 .contact-btn{
     background-color: rgb(73, 133, 58)!important;
+}
+@media(min-width: 768px){
+    .lead{
+        padding: 2rem;
+        font-size: 1.1rem;
+    }
+    .jumbotron{
+        width: 90%;
+        margin-top: 2%;
+    }
+}
+@media(min-width: 1024px){
+    .lead{
+        font-size: 1.25rem;
+    }
+    .jumbotron{
+        width: 80%;
+    }
 }

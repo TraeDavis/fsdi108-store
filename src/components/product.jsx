@@ -44,7 +44,6 @@ class Product extends Component {
   };
 
   handleAddToCart = () => {
-    console.log("added to cart");
     // dispatch the action
     var prodInCart = {
       product: this.props.data,
